@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Farming Season — God Mode & Auto Farm",
+  "version": "4.1.1",
+  "description": "Auto-plant (Plant all / 1-by-1, all 20 seeds), auto-harvest (Harvest all / 1-by-1), auto-pick perk, auto-feed, energy management, HP infinite, auto-dodge, auto-play bot, multipliers di farmingseason.io.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://farmingseason.io/*",
+        "https://*.farmingseason.io/*"
+      ],
+      "js": [
+        "farmingseason.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    }
+  ],
+  "host_permissions": [
+    "https://farmingseason.io/*",
+    "https://*.farmingseason.io/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Farming Season God Mode & Auto Farm"
+  }
+}

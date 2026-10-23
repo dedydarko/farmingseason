@@ -1,0 +1,43 @@
+{
+  "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "headless": true,
+  "webPort": 3000,
+  "autoOpenWeb": true,
+  "solvegateApiKey": "YOUR_SOLVEGATE_API_KEY_HERE",
+  "referralCode": "FARM-WBF9L",
+  "startupCooldownMinutes": 2,
+  "defaultSettings": {
+    "autoFarm": true,
+    "harvestMode": "all",
+    "autoPlant": true,
+    "plantMode": "all",
+    "plantCrop": "radish",
+    "autoFeed": true,
+    "hp": true,
+    "autoDodge": true,
+    "autoPlay": true,
+    "autoRestart": false,
+    "autoPerk": true,
+    "dmg": 1,
+    "spd": 1,
+    "loot": 1
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Akun 1",
+      "farmName": "Sunny Valley 1",
+      "enabled": true,
+      "crop": "radish",
+      "privateKey": "0x0000000000000000000000000000000000000000000000000000000000000001"
+    },
+    {
+      "id": 2,
+      "name": "Akun 2",
+      "farmName": "Sunny Valley 2",
+      "enabled": true,
+      "crop": "radish",
+      "privateKey": "0x0000000000000000000000000000000000000000000000000000000000000002"
+    }
+  ]
+}

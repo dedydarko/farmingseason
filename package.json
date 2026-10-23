@@ -1,0 +1,29 @@
+{
+  "name": "farmingseason-cli",
+  "version": "1.0.0",
+  "description": "Multi-Account Background CLI Runner for Farming Season",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js start",
+    "start:web": "node cli.js start --web-only",
+    "start:5": "node cli.js start -n 5",
+    "start:10": "node cli.js start -n 10",
+    "start:ui": "node cli.js start --visible",
+    "menu": "node cli.js",
+    "login": "node cli.js login",
+    "list": "node cli.js list",
+    "add": "node cli.js add"
+  },
+  "keywords": [
+    "farmingseason",
+    "bot",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "puppeteer-core": "^25.15.0"
+  }
+}

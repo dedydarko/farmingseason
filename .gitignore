@@ -1,0 +1,43 @@
+# =====================================================================
+# SANGAT PENTING: JANGAN DIHAPUS DARI GITIGNORE!
+# Mencegah kebocoran Private Key, API Key, dan Sesi Akun ke GitHub publik
+# =====================================================================
+
+# 1. Konfigurasi Akun & Kunci Rahasia Pribadi
+config.json
+.env
+.env.*
+
+# 2. Sesi Browser Chrome, Cookie, & Cache Akun
+profiles/
+profiles/**
+
+# 3. Riwayat Transaksi & Database Personal
+data/*.json
+data/wallet_history.json
+!data/.gitkeep
+
+# 4. Log Aktivitas & Error
+logs/
+logs/**
+*.log
+
+# 5. Dependency Node.js
+node_modules/
+
+# 6. Sistem Operasi & Editor Code
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.gemini/
+
+# 7. File Gambar Sementara & Arsip Zip
+*.zip
+*.png
+*.jpg
+*.jpeg
+scratch/
+__pycache__/
+*.pyc
